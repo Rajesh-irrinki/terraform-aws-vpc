@@ -22,11 +22,11 @@ output "public_route_id" {
     value = aws_route_table.public.id
 }
 
-output "private_route_table" {
+output "private_route_id" {
     value = aws_route_table.private.id
 }
 
-output "database_route_table" {
+output "database_route_id" {
     value = aws_route_table.database.id
 }
 
