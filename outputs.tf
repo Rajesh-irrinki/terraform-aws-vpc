@@ -30,3 +30,10 @@ output "database_route_table_id" {
     value = aws_route_table.database.id
 }
 
+output "nat_gateway_id" {
+    value = aws_nat_gateway.main.id
+}
+
+output "eip_ip" {
+    value = aws_eip.main.eip_ip
+} 
