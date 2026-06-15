@@ -35,5 +35,5 @@ output "nat_gateway_id" {
 }
 
 output "eip_ip" {
-    value = aws_eip.main.allocation_id
+    value = aws_eip.one.private_ip
 } 
